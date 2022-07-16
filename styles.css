@@ -1,0 +1,145 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.background-wave {
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    top: -1vh;
+    left: -1vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    background-color: white;
+    width: 57%;
+    position: relative;
+    border-radius: 1.3rem;
+    text-align: center;
+    min-height: 650px;
+}
+
+.box .hero-img {
+    width: 100%;
+    border-radius: 1.3rem 1.3rem 0rem 0rem;
+}
+
+.box .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 400px;
+    margin: 0.5rem 1rem 0rem;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    margin-bottom: 0;
+    color: hsl(223, 47%, 23%);
+}
+
+.content .content-text {
+    margin: 0.5rem 0rem 1rem;
+    color: hsl(224, 23%, 55%);
+    width: 85%;
+}
+
+.content-text {
+    font-family: "Red Hat Display";
+    font-weight: 500;
+}
+
+.annual-plan-box {
+    width: 85%;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1.2rem 0rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.annual-plan-box .music-icon {
+    width: 2.7rem;
+    position: relative;
+}
+
+.annual-plan-text {
+    position: relative;
+    right: 2.7vw;
+    text-align: left;
+}
+
+.annual-plan-box .annual-plan-text h5 {
+    margin: 0;
+}
+
+.annual-plan-box .annual-plan-text .plan {
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    margin-bottom: 0.45rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-plan-box .annual-plan-text .money {
+    font-family: "Red Hat Display";
+    font-weight: 700;
+
+    color: hsl(224, 23%, 55%);
+}
+
+.annual-plan-box a {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+}
+
+button {
+    margin-bottom: 0.25rem;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: hsl(245, 75%, 52%);
+    width: 85%;
+    min-height: 6vh;
+    color: hsl(225, 100%, 98%);
+    box-shadow: hsla(245, 75%, 52%, 0.144) 0rem 1.5rem 1rem;
+    font-family: "Red Hat Display";
+    font-weight: 700;
+}
+
+.annual-plan-box .change {
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.cancel {
+    font-size: small;
+    color: hsl(224, 23%, 55%);
+    font-family: "Red Hat Display";
+    font-weight: 900;
+}
